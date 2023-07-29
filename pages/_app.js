@@ -1,11 +1,10 @@
-import { AppProps } from 'next/app'
 import GlobalStyle from '../src/theme/GlobalStyle'
 import Head from 'next/head'
 
 export default function MyApp({
     Component,
     pageProps
-}: AppProps) {
+}) {
     return (
         <>
             <Head>
